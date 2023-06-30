@@ -94,6 +94,7 @@ body{
 }
 
 /*desktop display*/
+
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
     .speaker-form {
@@ -104,6 +105,7 @@ body{
       align-items: flex-start; /* To avoid stretching */
       margin-bottom: 20px;
     }
+
     .form-row input[type='text'],
     .form-row input[type = "email"] {
       width: 250px;
@@ -129,5 +131,4 @@ body{
     .legacy-form-row legend{
         float: left;
     }
-    
   }
