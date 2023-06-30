@@ -113,7 +113,6 @@ body{
     margin-bottom: 30px;
   }
   
-
 /*invalid input indicator*/
 .form-row input[type='text']:invalid,
 .form-row input[type='email']:invalid {
@@ -133,6 +132,7 @@ body{
       align-items: flex-start; /* To avoid stretching */
       margin-bottom: 20px;
     }
+  
     .form-row input[type='text'],
     .form-row input[type = "email"] {
       width: 250px;
@@ -158,8 +158,8 @@ body{
     .legacy-form-row legend{
         float: left;
     }
-    
   }
+
   @media only screen and (min-width: 700px) {
     /* ... */
     .form-row .instructions {
