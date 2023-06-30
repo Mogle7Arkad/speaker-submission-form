@@ -132,7 +132,7 @@ body{
       align-items: flex-start; /* To avoid stretching */
       margin-bottom: 20px;
     }
-  
+
     .form-row input[type='text'],
     .form-row input[type = "email"] {
       width: 250px;
