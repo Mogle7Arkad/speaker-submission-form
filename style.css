@@ -48,7 +48,8 @@ body{
     flex-wrap: wrap;
 }
 
-.form-row input[type = "text"]{
+.form-row input[type = "text"],
+.form-row input[type = "email"]{
     background-color: #ffffff;
     border: 1px solid #d6d9dc;
     border-radius: 3px;
@@ -60,7 +61,13 @@ body{
     margin-bottom: 15px;
 }
 
-
+/*invalid input indicator*/
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid {
+  border: 1px solid #D55C5F;
+  color: #D55C5F;
+  box-shadow: none; /* Remove default red glow in Firefox */
+}
 
 @media only screen and (min-width: 700px) {
     .speaker-form-header,
@@ -72,7 +79,9 @@ body{
       align-items: flex-start; /* To avoid stretching */
       margin-bottom: 20px;
     }
-    .form-row input[type='text'] {
+
+    .form-row input[type='text'],
+    .form-row input[type = "email"] {
       width: 250px;
       height: initial;
     }
